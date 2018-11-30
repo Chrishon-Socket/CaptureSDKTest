@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC945313979DECA1266D3CA9D1A56AB /* Pods-CaptureSDKTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4513A3B8C76DE1365FDA6521015D7492 /* Pods-CaptureSDKTest-dummy.m */; };
+		29165BEBC0C81199325C7425AB1F9FD3 /* SKTCapture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06880CAD703F8D14A6DE4D15BA9C0B12 /* SKTCapture-dummy.m */; };
+		449F65070A345CD088F7E5243CF0375B /* Pods-CaptureSDKTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2BC963EE50FB79D282D68D1E26F48C /* Pods-CaptureSDKTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ED05960B0DC8CD53CD780C1A277F54 /* SktCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C530D24167A747CAE1228F559A92134 /* SktCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CBFAC7DD9D2B40550C2EF07CE1D7BB4 /* SktCaptureVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BE6516BDE750832A63DB8145446794 /* SktCaptureVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB7F53613BABD4C8BB9E78786EC748D /* socketmobilepublickey.pem in Resources */ = {isa = PBXBuildFile; fileRef = 4B04372D4C30465FA1BF60017AD13665 /* socketmobilepublickey.pem */; };
+		A4AC91364CE3BAC64B8EE66A9808ECB0 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A65137C39CE2C3795FF25AA08C0B13D /* ExternalAccessory.framework */; };
+		A89D92D5B0260BBA93525EF3B9A81EFC /* CaptureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BD5D75464AF3E1534CC58CB3977BC /* CaptureHelper.swift */; };
+		AD0C134C5FAB5F6F5049D3462180C2D5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F45716CFE5D9D0CBAEFD303CC8A03D /* AVFoundation.framework */; };
+		AE7071A21B8FF6FA94248FFFF40EDE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F54E2B84330A10837E2C0C965A37EE4 /* Foundation.framework */; };
+		B0D5667F57A89698F06109BACA1F957F /* softScanBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6FA788E970CA402B801ECB047D415D94 /* softScanBeep.wav */; };
+		B8D311F7F453AE46D1C40E5D31E54021 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E23E3CE8026AE5B20AC9EDE94D1573 /* AudioToolbox.framework */; };
+		C8F7BDEA9F0BEC1B1F0B66F9DE5DE337 /* SktCapturePropertyIds.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3578EA051DC74120F6E18A6315D54D /* SktCapturePropertyIds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0BDF290811E33A41F84DF5FAD0F41E8 /* SktCaptureProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0B9CA752AC30CB5EE76F80DB5AD8FC /* SktCaptureProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62F7DBC70A87937C03F4F2419A67BFB /* SktCaptureDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 86600EADB1FDE1B3589AE170972B8A64 /* SktCaptureDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3CAFCFE87530AD0F2685BF47323EA58 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E0DDB8509AA89F16A9B13965D6E4C /* CoreBluetooth.framework */; };
+		F53656127FC07E723BC64084A7AFF8FF /* SktCaptureErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EAEABEFC061CEFFB820CDD78656F83 /* SktCaptureErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6FFFA8B00676974B9088E4AFD888E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F54E2B84330A10837E2C0C965A37EE4 /* Foundation.framework */; };
+		FD1497AAF23CF062C18CBA617D318323 /* SKTCapture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE84E3AA12DA2D8D54916269A21A3F1 /* SKTCapture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF866D604A8252B62A80D0E05CE6360D /* SktCaptureEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 753A196F707D73EB19B0D36AB1EC1656 /* SktCaptureEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254E4C0CF47E89C1C35CC4BF2330027C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B950E5693EDD8135B4020013995E4E7;
+			remoteInfo = SKTCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0501D435E6B2F1E57AFDA15BF64D259D /* Pods-CaptureSDKTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptureSDKTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06880CAD703F8D14A6DE4D15BA9C0B12 /* SKTCapture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKTCapture-dummy.m"; sourceTree = "<group>"; };
+		10064B4F484154E4C3AAD85DE59093F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C530D24167A747CAE1228F559A92134 /* SktCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCapture.h; sourceTree = "<group>"; };
+		1F54E2B84330A10837E2C0C965A37EE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C50BFFE2B956F7E024E05F91B651C58 /* Pods-CaptureSDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureSDKTest.release.xcconfig"; sourceTree = "<group>"; };
+		4513A3B8C76DE1365FDA6521015D7492 /* Pods-CaptureSDKTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CaptureSDKTest-dummy.m"; sourceTree = "<group>"; };
+		4A65137C39CE2C3795FF25AA08C0B13D /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
+		4B04372D4C30465FA1BF60017AD13665 /* socketmobilepublickey.pem */ = {isa = PBXFileReference; includeInIndex = 1; path = socketmobilepublickey.pem; sourceTree = "<group>"; };
+		4FE84E3AA12DA2D8D54916269A21A3F1 /* SKTCapture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTCapture-umbrella.h"; sourceTree = "<group>"; };
+		5BE0ED98B8680D0CDB9A6A743FB28793 /* SKTCapture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTCapture.xcconfig; sourceTree = "<group>"; };
+		61BE6516BDE750832A63DB8145446794 /* SktCaptureVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureVersion.h; sourceTree = "<group>"; };
+		61EAEABEFC061CEFFB820CDD78656F83 /* SktCaptureErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureErrors.h; sourceTree = "<group>"; };
+		62F45716CFE5D9D0CBAEFD303CC8A03D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		660DC4115F39BD4AF56FDDEF5A9B0866 /* Pods_CaptureSDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CaptureSDKTest.framework; path = "Pods-CaptureSDKTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A82BA78E1EF6BDB3FFB6CFB70A2FE2 /* SKTCapture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKTCapture.modulemap; sourceTree = "<group>"; };
+		6FA788E970CA402B801ECB047D415D94 /* softScanBeep.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = softScanBeep.wav; sourceTree = "<group>"; };
+		71896CCA7BA70C1E40FFF1A99D3E5877 /* Pods-CaptureSDKTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CaptureSDKTest.modulemap"; sourceTree = "<group>"; };
+		73CEF423C94AF9C39B14F62A9A173B39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753A196F707D73EB19B0D36AB1EC1656 /* SktCaptureEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureEvent.h; sourceTree = "<group>"; };
+		86600EADB1FDE1B3589AE170972B8A64 /* SktCaptureDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureDataSource.h; sourceTree = "<group>"; };
+		8F3578EA051DC74120F6E18A6315D54D /* SktCapturePropertyIds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCapturePropertyIds.h; sourceTree = "<group>"; };
+		92A35BB198EAF4CDD0719B4292483855 /* Pods-CaptureSDKTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CaptureSDKTest-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		986E0DDB8509AA89F16A9B13965D6E4C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		A8E23E3CE8026AE5B20AC9EDE94D1573 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		A9DA39F346F5FF661499BE4572441458 /* SKTCapture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTCapture-prefix.pch"; sourceTree = "<group>"; };
+		AB7BD5D75464AF3E1534CC58CB3977BC /* CaptureHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptureHelper.swift; sourceTree = "<group>"; };
+		C78DA66700FE368C0C1522A23B298288 /* Pods-CaptureSDKTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CaptureSDKTest-resources.sh"; sourceTree = "<group>"; };
+		C7C2C2D05DE0EF0A57CC78CFB4AD14C1 /* libCaptureCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCaptureCore.a; path = lib/libCaptureCore.a; sourceTree = "<group>"; };
+		CA2BC963EE50FB79D282D68D1E26F48C /* Pods-CaptureSDKTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptureSDKTest-umbrella.h"; sourceTree = "<group>"; };
+		CBD5D741F11B607CD61C371D4E37C531 /* libCaptureServiceDirect.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCaptureServiceDirect.a; path = lib/libCaptureServiceDirect.a; sourceTree = "<group>"; };
+		EFBFB99A32FA26FBB4FBEAD2D5C5BD3D /* Pods-CaptureSDKTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureSDKTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		F464D7807C96944B4C7562243014B111 /* SKTCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKTCapture.framework; path = SKTCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2BDF8BAF3DCA5CE7F0C59F5EF8AB36 /* Pods-CaptureSDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureSDKTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FC0B9CA752AC30CB5EE76F80DB5AD8FC /* SktCaptureProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureProperty.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E2CEA9C8883F324753FE2A793F587B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FFFA8B00676974B9088E4AFD888E87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91C9CFBD2F5311D566EF56666E1F8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D311F7F453AE46D1C40E5D31E54021 /* AudioToolbox.framework in Frameworks */,
+				AD0C134C5FAB5F6F5049D3462180C2D5 /* AVFoundation.framework in Frameworks */,
+				F3CAFCFE87530AD0F2685BF47323EA58 /* CoreBluetooth.framework in Frameworks */,
+				A4AC91364CE3BAC64B8EE66A9808ECB0 /* ExternalAccessory.framework in Frameworks */,
+				AE7071A21B8FF6FA94248FFFF40EDE8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A99480CCD59F41A980CEFB652243B81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660DC4115F39BD4AF56FDDEF5A9B0866 /* Pods_CaptureSDKTest.framework */,
+				F464D7807C96944B4C7562243014B111 /* SKTCapture.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94F9163CBB7E019692BA353D8E07AA61 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2700E3E9F5CAA8A6C519F841D794520A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				928AB3BBABEC4F8CAD7ACF1BA648AA03 /* Pods-CaptureSDKTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		63AF1CC417565E4948FF6E01349FE7E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B04372D4C30465FA1BF60017AD13665 /* socketmobilepublickey.pem */,
+				6FA788E970CA402B801ECB047D415D94 /* softScanBeep.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		79FB1F051DDBEBEC70722D3CB345DF0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CEF423C94AF9C39B14F62A9A173B39 /* Info.plist */,
+				66A82BA78E1EF6BDB3FFB6CFB70A2FE2 /* SKTCapture.modulemap */,
+				5BE0ED98B8680D0CDB9A6A743FB28793 /* SKTCapture.xcconfig */,
+				06880CAD703F8D14A6DE4D15BA9C0B12 /* SKTCapture-dummy.m */,
+				A9DA39F346F5FF661499BE4572441458 /* SKTCapture-prefix.pch */,
+				4FE84E3AA12DA2D8D54916269A21A3F1 /* SKTCapture-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKTCapture";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				E8AABFA0B4E14D7A4E09EE0B8F1966B3 /* Pods */,
+				1A99480CCD59F41A980CEFB652243B81 /* Products */,
+				2700E3E9F5CAA8A6C519F841D794520A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		923CEE6A80BB09D19461863A89B6E881 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7C2C2D05DE0EF0A57CC78CFB4AD14C1 /* libCaptureCore.a */,
+				CBD5D741F11B607CD61C371D4E37C531 /* libCaptureServiceDirect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		928AB3BBABEC4F8CAD7ACF1BA648AA03 /* Pods-CaptureSDKTest */ = {
+			isa = PBXGroup;
+			children = (
+				10064B4F484154E4C3AAD85DE59093F7 /* Info.plist */,
+				71896CCA7BA70C1E40FFF1A99D3E5877 /* Pods-CaptureSDKTest.modulemap */,
+				0501D435E6B2F1E57AFDA15BF64D259D /* Pods-CaptureSDKTest-acknowledgements.markdown */,
+				EFBFB99A32FA26FBB4FBEAD2D5C5BD3D /* Pods-CaptureSDKTest-acknowledgements.plist */,
+				4513A3B8C76DE1365FDA6521015D7492 /* Pods-CaptureSDKTest-dummy.m */,
+				92A35BB198EAF4CDD0719B4292483855 /* Pods-CaptureSDKTest-frameworks.sh */,
+				C78DA66700FE368C0C1522A23B298288 /* Pods-CaptureSDKTest-resources.sh */,
+				CA2BC963EE50FB79D282D68D1E26F48C /* Pods-CaptureSDKTest-umbrella.h */,
+				FA2BDF8BAF3DCA5CE7F0C59F5EF8AB36 /* Pods-CaptureSDKTest.debug.xcconfig */,
+				3C50BFFE2B956F7E024E05F91B651C58 /* Pods-CaptureSDKTest.release.xcconfig */,
+			);
+			name = "Pods-CaptureSDKTest";
+			path = "Target Support Files/Pods-CaptureSDKTest";
+			sourceTree = "<group>";
+		};
+		94F9163CBB7E019692BA353D8E07AA61 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8E23E3CE8026AE5B20AC9EDE94D1573 /* AudioToolbox.framework */,
+				62F45716CFE5D9D0CBAEFD303CC8A03D /* AVFoundation.framework */,
+				986E0DDB8509AA89F16A9B13965D6E4C /* CoreBluetooth.framework */,
+				4A65137C39CE2C3795FF25AA08C0B13D /* ExternalAccessory.framework */,
+				1F54E2B84330A10837E2C0C965A37EE4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA22585700D863F6CA42E25CE7C64D78 /* SKTCapture */ = {
+			isa = PBXGroup;
+			children = (
+				AB7BD5D75464AF3E1534CC58CB3977BC /* CaptureHelper.swift */,
+				1C530D24167A747CAE1228F559A92134 /* SktCapture.h */,
+				86600EADB1FDE1B3589AE170972B8A64 /* SktCaptureDataSource.h */,
+				61EAEABEFC061CEFFB820CDD78656F83 /* SktCaptureErrors.h */,
+				753A196F707D73EB19B0D36AB1EC1656 /* SktCaptureEvent.h */,
+				FC0B9CA752AC30CB5EE76F80DB5AD8FC /* SktCaptureProperty.h */,
+				8F3578EA051DC74120F6E18A6315D54D /* SktCapturePropertyIds.h */,
+				61BE6516BDE750832A63DB8145446794 /* SktCaptureVersion.h */,
+				923CEE6A80BB09D19461863A89B6E881 /* Frameworks */,
+				63AF1CC417565E4948FF6E01349FE7E6 /* Resources */,
+				79FB1F051DDBEBEC70722D3CB345DF0E /* Support Files */,
+			);
+			name = SKTCapture;
+			path = SKTCapture;
+			sourceTree = "<group>";
+		};
+		E8AABFA0B4E14D7A4E09EE0B8F1966B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA22585700D863F6CA42E25CE7C64D78 /* SKTCapture */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77C4A377C804DC9B45CE2DC00EF87F21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449F65070A345CD088F7E5243CF0375B /* Pods-CaptureSDKTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A713F28622BD85FBD6446F0DBDD511 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1497AAF23CF062C18CBA617D318323 /* SKTCapture-umbrella.h in Headers */,
+				45ED05960B0DC8CD53CD780C1A277F54 /* SktCapture.h in Headers */,
+				D62F7DBC70A87937C03F4F2419A67BFB /* SktCaptureDataSource.h in Headers */,
+				F53656127FC07E723BC64084A7AFF8FF /* SktCaptureErrors.h in Headers */,
+				FF866D604A8252B62A80D0E05CE6360D /* SktCaptureEvent.h in Headers */,
+				D0BDF290811E33A41F84DF5FAD0F41E8 /* SktCaptureProperty.h in Headers */,
+				C8F7BDEA9F0BEC1B1F0B66F9DE5DE337 /* SktCapturePropertyIds.h in Headers */,
+				9CBFAC7DD9D2B40550C2EF07CE1D7BB4 /* SktCaptureVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C84E133255A676C39EFB6644963825D /* Pods-CaptureSDKTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EBAB41F7533C5AB9453A487F3F3A4C /* Build configuration list for PBXNativeTarget "Pods-CaptureSDKTest" */;
+			buildPhases = (
+				D68380ED322E8A853B19BD787CEC6A25 /* Sources */,
+				06E2CEA9C8883F324753FE2A793F587B /* Frameworks */,
+				77C4A377C804DC9B45CE2DC00EF87F21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB62AFB13D2EA99495A2241936E1D543 /* PBXTargetDependency */,
+			);
+			name = "Pods-CaptureSDKTest";
+			productName = "Pods-CaptureSDKTest";
+			productReference = 660DC4115F39BD4AF56FDDEF5A9B0866 /* Pods_CaptureSDKTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B950E5693EDD8135B4020013995E4E7 /* SKTCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC2D05D522D8299F6D039944E28A932 /* Build configuration list for PBXNativeTarget "SKTCapture" */;
+			buildPhases = (
+				45B044F684520C7E8AB66E4ADF8364E8 /* Sources */,
+				D91C9CFBD2F5311D566EF56666E1F8FF /* Frameworks */,
+				81A713F28622BD85FBD6446F0DBDD511 /* Headers */,
+				AA85904BCC2D86C0F10533EF65B00127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKTCapture;
+			productName = SKTCapture;
+			productReference = F464D7807C96944B4C7562243014B111 /* SKTCapture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1A99480CCD59F41A980CEFB652243B81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C84E133255A676C39EFB6644963825D /* Pods-CaptureSDKTest */,
+				7B950E5693EDD8135B4020013995E4E7 /* SKTCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA85904BCC2D86C0F10533EF65B00127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB7F53613BABD4C8BB9E78786EC748D /* socketmobilepublickey.pem in Resources */,
+				B0D5667F57A89698F06109BACA1F957F /* softScanBeep.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45B044F684520C7E8AB66E4ADF8364E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89D92D5B0260BBA93525EF3B9A81EFC /* CaptureHelper.swift in Sources */,
+				29165BEBC0C81199325C7425AB1F9FD3 /* SKTCapture-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68380ED322E8A853B19BD787CEC6A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC945313979DECA1266D3CA9D1A56AB /* Pods-CaptureSDKTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB62AFB13D2EA99495A2241936E1D543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKTCapture;
+			target = 7B950E5693EDD8135B4020013995E4E7 /* SKTCapture */;
+			targetProxy = 254E4C0CF47E89C1C35CC4BF2330027C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3689957E0025D075A2C0993927F9FE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		533B2133123F2EF08772570210D4D875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2BDF8BAF3DCA5CE7F0C59F5EF8AB36 /* Pods-CaptureSDKTest.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CaptureSDKTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CaptureSDKTest/Pods-CaptureSDKTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CaptureSDKTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CF19D2D254526EB1048356D363DEC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE0ED98B8680D0CDB9A6A743FB28793 /* SKTCapture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKTCapture/SKTCapture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKTCapture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKTCapture/SKTCapture.modulemap";
+				PRODUCT_NAME = SKTCapture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2DC4D9CB8E6E67D82CB5CA872705BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE0ED98B8680D0CDB9A6A743FB28793 /* SKTCapture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKTCapture/SKTCapture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKTCapture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKTCapture/SKTCapture.modulemap";
+				PRODUCT_NAME = SKTCapture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC3ADA45F0294FA43347C0B61D1D5A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C50BFFE2B956F7E024E05F91B651C58 /* Pods-CaptureSDKTest.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CaptureSDKTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CaptureSDKTest/Pods-CaptureSDKTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CaptureSDKTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F582AD13A9DE7F131B91568E61E9D1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3689957E0025D075A2C0993927F9FE71 /* Debug */,
+				F582AD13A9DE7F131B91568E61E9D1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EBAB41F7533C5AB9453A487F3F3A4C /* Build configuration list for PBXNativeTarget "Pods-CaptureSDKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533B2133123F2EF08772570210D4D875 /* Debug */,
+				EC3ADA45F0294FA43347C0B61D1D5A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC2D05D522D8299F6D039944E28A932 /* Build configuration list for PBXNativeTarget "SKTCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DC4D9CB8E6E67D82CB5CA872705BA4 /* Debug */,
+				8CF19D2D254526EB1048356D363DEC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

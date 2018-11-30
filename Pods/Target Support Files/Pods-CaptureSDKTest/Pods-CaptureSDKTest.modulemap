@@ -1,0 +1,6 @@
+framework module Pods_CaptureSDKTest {
+  umbrella header "Pods-CaptureSDKTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

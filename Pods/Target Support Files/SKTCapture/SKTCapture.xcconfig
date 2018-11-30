@@ -1,0 +1,14 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SKTCapture
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Public"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/SKTCapture/lib"
+OTHER_LDFLAGS = -l"CaptureCore" -l"CaptureServiceDirect" -l"c++" -l"icucore" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreBluetooth" -framework "ExternalAccessory"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/SKTCapture
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+SWIFT_OPTIMIZATION_LEVEL = -Owholemodule
+SWIFT_VERSION = 3.0
