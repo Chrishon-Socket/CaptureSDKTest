@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode10
+script:
+- xcodebuild clean test -workspace CaptureSDKTest.xcworkspace -scheme CaptureSDKTest -destination "platform=iOS Simulator,name=iPhone X,OS=12.0"
+
