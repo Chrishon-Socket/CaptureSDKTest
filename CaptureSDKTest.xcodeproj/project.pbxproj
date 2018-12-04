@@ -12,8 +12,19 @@
 		52BF980E215C80BF00153B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BF980C215C80BF00153B9E /* Main.storyboard */; };
 		52BF9810215C80C000153B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BF980F215C80C000153B9E /* Assets.xcassets */; };
 		52BF9813215C80C000153B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BF9811215C80C000153B9E /* LaunchScreen.storyboard */; };
+		52E5649321B6122100284385 /* CaptureSDKTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E5649221B6122100284385 /* CaptureSDKTestTests.swift */; };
 		5897C1C24BF89388F53F5EA3 /* Pods_CaptureSDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3C03D728F5F05ABE8ED2D6 /* Pods_CaptureSDKTest.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E5649521B6122100284385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BF97FD215C80BF00153B9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BF9804215C80BF00153B9E;
+			remoteInfo = CaptureSDKTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		323A9D1A635FB5CC32C86416 /* Pods-CaptureSDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSDKTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaptureSDKTest/Pods-CaptureSDKTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -25,6 +36,9 @@
 		52BF980F215C80C000153B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BF9812215C80C000153B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52BF9814215C80C000153B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E5649021B6122100284385 /* CaptureSDKTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptureSDKTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E5649221B6122100284385 /* CaptureSDKTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSDKTestTests.swift; sourceTree = "<group>"; };
+		52E5649421B6122100284385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC3C03D728F5F05ABE8ED2D6 /* Pods_CaptureSDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,6 +51,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52E5648D21B6122100284385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -44,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				52BF9807215C80BF00153B9E /* CaptureSDKTest */,
+				52E5649121B6122100284385 /* CaptureSDKTestTests */,
 				52BF9806215C80BF00153B9E /* Products */,
 				F7730619ECBBFD478456F5C9 /* Pods */,
 				A4315E1F69E04F1379FE63A0 /* Frameworks */,
@@ -54,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				52BF9805215C80BF00153B9E /* CaptureSDKTest.app */,
+				52E5649021B6122100284385 /* CaptureSDKTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +92,15 @@
 				52BF9814215C80C000153B9E /* Info.plist */,
 			);
 			path = CaptureSDKTest;
+			sourceTree = "<group>";
+		};
+		52E5649121B6122100284385 /* CaptureSDKTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				52E5649221B6122100284385 /* CaptureSDKTestTests.swift */,
+				52E5649421B6122100284385 /* Info.plist */,
+			);
+			path = CaptureSDKTestTests;
 			sourceTree = "<group>";
 		};
 		A4315E1F69E04F1379FE63A0 /* Frameworks */ = {
@@ -111,18 +143,40 @@
 			productReference = 52BF9805215C80BF00153B9E /* CaptureSDKTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		52E5648F21B6122100284385 /* CaptureSDKTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E5649921B6122100284385 /* Build configuration list for PBXNativeTarget "CaptureSDKTestTests" */;
+			buildPhases = (
+				52E5648C21B6122100284385 /* Sources */,
+				52E5648D21B6122100284385 /* Frameworks */,
+				52E5648E21B6122100284385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E5649621B6122100284385 /* PBXTargetDependency */,
+			);
+			name = CaptureSDKTestTests;
+			productName = CaptureSDKTestTests;
+			productReference = 52E5649021B6122100284385 /* CaptureSDKTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		52BF97FD215C80BF00153B9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Socket Mobile";
 				TargetAttributes = {
 					52BF9804215C80BF00153B9E = {
 						CreatedOnToolsVersion = 10.0;
+					};
+					52E5648F21B6122100284385 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 52BF9804215C80BF00153B9E;
 					};
 				};
 			};
@@ -140,6 +194,7 @@
 			projectRoot = "";
 			targets = (
 				52BF9804215C80BF00153B9E /* CaptureSDKTest */,
+				52E5648F21B6122100284385 /* CaptureSDKTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +207,13 @@
 				52BF9813215C80C000153B9E /* LaunchScreen.storyboard in Resources */,
 				52BF9810215C80C000153B9E /* Assets.xcassets in Resources */,
 				52BF980E215C80BF00153B9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E5648E21B6122100284385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +283,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52E5648C21B6122100284385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E5649321B6122100284385 /* CaptureSDKTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E5649621B6122100284385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BF9804215C80BF00153B9E /* CaptureSDKTest */;
+			targetProxy = 52E5649521B6122100284385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52BF980C215C80BF00153B9E /* Main.storyboard */ = {
@@ -397,6 +475,48 @@
 			};
 			name = Release;
 		};
+		52E5649721B6122100284385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GCJ274LWEE;
+				INFOPLIST_FILE = CaptureSDKTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.socketmobile.CaptureSDKTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaptureSDKTest.app/CaptureSDKTest";
+			};
+			name = Debug;
+		};
+		52E5649821B6122100284385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GCJ274LWEE;
+				INFOPLIST_FILE = CaptureSDKTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.socketmobile.CaptureSDKTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaptureSDKTest.app/CaptureSDKTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,6 +534,15 @@
 			buildConfigurations = (
 				52BF9818215C80C000153B9E /* Debug */,
 				52BF9819215C80C000153B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E5649921B6122100284385 /* Build configuration list for PBXNativeTarget "CaptureSDKTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E5649721B6122100284385 /* Debug */,
+				52E5649821B6122100284385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
